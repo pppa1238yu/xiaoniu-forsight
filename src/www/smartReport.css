@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+#smartReport{
+    min-height: 100vh;
+}
+
+.smartReportPage{
+    width: 1200px;
+    min-height: 100vh;
+    margin:14px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    padding-bottom: 40px;
+}
+
+.smartReportPageMobile{
+    width: 100%;
+    min-height: 100vh;
+    margin:14px auto 0 auto;
+    padding:0 10px 40px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    flex-direction: column;
+}
+.leftItem{
+    width:850px;
+}
+
+.flex-vertical-center {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.mainWidth{
+    width:1200px;
+}
+
+.rightItem{
+    width:341px;
+}
+
+.fullItem{
+    width: 100%;
+}
+.flexBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.flexStart {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.flexBoxNormal{
+    display: flex;
+    justify-content: space-between;
+}
+.flexBoxSmall {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.hidden{
+    height:0;
+    overflow: hidden;
+}
+
+.fullScreen{
+    position: relative;
+    min-height: 100vh;
+}
+
+.center-align{
+    text-align:center
+}
+
+/**************************** commen ******************************/
+.commen-mgt4{
+    margin-top: 4px;
+}
+
+.commen-mgt10{
+    margin-top: 10px;
+}
+
+.commen-mgt20{
+    margin-top: 20px;
+}
+.commen-pdl20{
+    padding-left: 20px;
+}
+
+.commen-pdl30{
+    padding-left: 30px;
+}
+
+.commen-pdt20{
+    padding-top: 20px;
+}
+
+.commen-pdl10{
+    padding-left: 10px;
+}
+
+.smallTitle{
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.colorRed{
+    color:#e51c23;
+}
+
+.titleColor{
+    color:#ff7700;
+    line-height: 40px;
+}
+
+.normalFont{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.colorGreen{
+    color:#5e9d09;
+}
+
+.boldText{
+    font-weight: 600;
+}
+
+.font12{
+    font-size: 12px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font18{
+    font-size: 18px;
+}
+
+.font20{
+    font-size: 20px;
+}
+
+.font26{
+    font-size: 26px;
+}
+
+.font50{
+    font-size: 50px;
+}
+.font40{
+    font-size: 40px;
+}
+
+.commen-color{
+    color:#101010;
+}
+
+.mainColor{
+    color: #fe3f00;
+    line-height: 30px;
+}
+
+.titleBold {
+    line-height: 60px;
+    font-size: 28px;
+    color: #fe3f00;
+}
+
+.titleBoldSmall {
+    line-height: 40px;
+    font-size: 28px;
+    color: #fe3f00;
+    padding:15px 0;
+}
+
+.title {
+    line-height: 60px;
+    font-size: 20px;
+    color: #fe3f00;
+}
+
+.flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/***********************************************************************/
+.reportHeader{
+    position: relative;
+    box-sizing: border-box;
+    padding: 30px 15px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.reportHeaderSmall{
+    box-sizing: content-box;
+    position: relative;
+    padding: 30px 10px 20px 10px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.boxShadow{
+    box-shadow: 0 0 7px 3px #ccc;
+}
+
+.reportHeader .header,
+.contentHead .header{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    minHeight: 40px;
+    line-height: 40px;
+}
+
+.headItemIcon{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.rates{
+    position: relative;
+    width: 200px;
+}
+
+.noBottomBorder{
+    border-bottom:none
+}
+
+.riskTitle{
+    color: #ef5350;
+    font-weight:600;
+}
+
+.riskUl{
+    list-style: disc;
+    margin: 0;
+}
+
+.riskUlSmall{
+    list-style: disc;
+    margin: 0;
+}
+.riskUlSmall li{
+    color: #ef5350;
+    margin-left: 20px;
+}
+
+
+.riskUl li{
+    color: #ef5350;
+    padding: 5px 0;
+    margin-left: 20px;
+}
+
+.titleSmallMargin{
+    margin:10px;
+}
+
+.riskUlSmall li span{
+    font-size: 12px;
+    color: #101010;
+}
+.riskUl li span{
+    font-size: 14px;
+    color: #616161;
+}
+
+.introduction-ul,.introduction-ul-small{
+    line-height: normal;
+    padding-left: 20px;
+}
+.introduction-ul li{
+    padding: 10px 0;
+    color: #ef5350;
+}
+.introduction-ul li span{
+    color:#000 ;
+    font-weight: 600;
+}
+.introduction-ul-small li{
+    padding: 5px 0;
+    color: #ef5350;
+}
+.introduction-ul-small li span{
+    color:#000 ;
+    font-weight: 600;
+    font-size: 14px;
+}
+.stockIcon{
+    display: inline-block;
+    width: 10px;
+    height: 8px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.upArrow{
+    background-image: url("/images/arrowUp.png");
+}
+
+.downArrow{
+    background-image: url("/images/arrowDown.png");
+}
+
+.starSize{
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.smallStarSize{
+    display:inline-block;
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.footer{
+    text-align: center;
+}
+
+.legend-marginTop{
+    margin-top: 5px;
+}
+.verdict{
+    color:#101010;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.verdictSmall{
+    color:#101010;
+    font-size: 14px;
+}
+.small-padding{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.chart-marginTop{
+    margin-top: 20px;
+}
+.legend-row>div{
+    width: 150px;
+}
+
+.textMargin{
+    padding-bottom: 10px;
+}
+.benifitCenter{
+    color: #444;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+}

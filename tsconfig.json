@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+		"experimentalDecorators": true,
+        "outDir": "./public/",
+        "sourceMap": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react"
+    },
+    "include": [
+		"src/**/*.ts",
+        "src/**/*.tsx",
+        "src/**/*.jsx"
+    ]
+}

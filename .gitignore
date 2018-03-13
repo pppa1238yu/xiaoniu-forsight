@@ -1,0 +1,8 @@
+.*/
+node_modules/
+dist/bundle.js
+
+public/
+build/
+*.log
+npm-debug*

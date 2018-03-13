@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainBox {
+    position: relative;
+    box-sizing: border-box;
+    height: 100vh;
+    min-height: 650px;
+    padding: 0 20px 20px;
+    margin-bottom: 150px;
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.commonColor {
+    color: #616161;
+}
+
+.boldText {
+    font-weight: 600;
+}
+
+.logoStyle {
+    width: 100px;
+}
+
+.hidden {
+    height: 0;
+    overflow: hidden;
+}
+
+.fullScreen {
+    position: relative;
+    min-height: 100vh;
+}
+
+.flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.center-align {
+    text-align: center
+}
+
+.nav-cloud {
+    border: 1px solid #ccc;
+    height: 120px;
+}

@@ -1,0 +1,21 @@
+export class HotAnalystsData{
+    followed:boolean;
+    target:{
+        title?:{
+            typeName:string
+        };
+        beginSecurityYear:number;
+        certificate:string;
+        certificateId:string;
+        degree:string;
+        degreeId:string;
+        fullName:string;
+        gender:string;
+        gtaCsrcPersonMapping:object;
+        gtaId:number;
+        imageId:string;
+        score:number;
+        source:string;
+        viewPointCount:number;
+    }
+}

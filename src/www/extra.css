@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding:0;
+}
+header{
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header p{
+    color:#fff;
+    text-align: center;
+    line-height: 450px;
+    font-size:24px;
+}
+.dashBorder{
+    border: 1px solid  #d2d2d2;
+}
+.mg-tp-64{
+    margin-top: 64px;
+}
+.mg-tp-32{
+    margin-top: 32px;
+}
+.content-box-padding{
+    padding: 0 63px;
+}
+.ad-content-padding{
+    padding: 35px 20px 20px;
+}
+.nav-item{
+    width: auto;
+}
+.ad-nav-item{
+    width: auto;
+}
+.tab-content>div{
+    min-height: 300px;
+    margin-bottom: 40px;
+}
+.null-content{
+    line-height: 300px;
+}
+
+.outerStyle{
+    margin:60px 0;
+}
+.report{
+    padding: 28px 20px;
+    position: relative;
+    list-style: disc;
+}
+.reportUl li{
+    display: block;
+    font-size: 14px;
+    line-height: 36px;
+}
+.rightText{
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:#999;
+}
+.reportColor{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:#005bb2;
+}
+.rightText:hover{
+    text-decoration: none;
+}
+
+.calf-nav li{
+    float: left;
+    margin-left: 55px;
+}
+
+.nav-logo{
+    float: left;
+    height: 40px;
+    margin-top: 9px;
+    overflow: hidden;
+}
+
+.nav-logo a{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-inverse {
+    background-color: #626262;
+    border-color: transparent;
+}
+.navbar .header-links>li>a{
+    color: #fff;
+}
+.header-links a:hover{
+    color: #ff9c00!important;
+}
+.nav-active{
+    color: #ff9c00!important;
+}
+.tab-content{
+    color: #494949;
+}
+.tab-pane>div{
+    margin-bottom: 40px;
+}
+.ad-content-marginTop{
+    margin-top: 0;
+}
+.centerText{
+    text-align:center;
+    padding:80px 20px;
+}
+@media (max-width:767px) {
+    header{
+        height: 200px;
+    }
+    header p{
+        font-size:18px;
+        line-height: 200px;
+    }
+    .dashBorder{
+        border: none;
+    }
+    .nav-stacked>li{
+        float: left;
+    }
+    .content-box-padding{
+        padding: 0;
+    }
+    .ad-content-padding{
+        padding: 0;
+    }
+    .nav-item{
+        width: 33.3%;
+    }
+    .ad-nav-item{
+        width: 50%;
+    }
+    .tab-content>div{
+        min-height: 100px;
+    }
+    .null-content{
+        line-height: 100px;
+    }
+    .report{
+        padding: 0;
+    }
+    .ad-content-marginTop{
+        margin-top: 40px;
+    }
+    .outerStyle{
+        margin-top: 20px;
+    }
+    .centerText{
+        padding:20px 20px;
+    }
+}
+
